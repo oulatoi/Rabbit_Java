@@ -1,6 +1,6 @@
 import com.rabbitmq.client.*;
 
-public class Receiver {
+public class Receiver_4 {
     private static final String EXCHANGE_NAME = "direct_logs";
 
     public static void main(String[] argv) throws Exception {

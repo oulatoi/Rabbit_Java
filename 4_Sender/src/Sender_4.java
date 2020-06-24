@@ -2,7 +2,7 @@ import com.rabbitmq.client.BuiltinExchangeType;
 import com.rabbitmq.client.Channel;
 import com.rabbitmq.client.Connection;
 import com.rabbitmq.client.ConnectionFactory;
-public class Sender {
+public class Sender_4 {
     private static final String EXCHANGE_NAME = "direct_logs";
 
     public static void main(String[] argv) throws Exception {
