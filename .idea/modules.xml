@@ -8,6 +8,8 @@
       <module fileurl="file://$PROJECT_DIR$/2_Sender/2_Sender.iml" filepath="$PROJECT_DIR$/2_Sender/2_Sender.iml" />
       <module fileurl="file://$PROJECT_DIR$/3_Receiver/3_Receiver.iml" filepath="$PROJECT_DIR$/3_Receiver/3_Receiver.iml" />
       <module fileurl="file://$PROJECT_DIR$/3_Sender/3_Sender.iml" filepath="$PROJECT_DIR$/3_Sender/3_Sender.iml" />
+      <module fileurl="file://$PROJECT_DIR$/4_Receiver/4_Receiver.iml" filepath="$PROJECT_DIR$/4_Receiver/4_Receiver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/4_Sender/4_Sender.iml" filepath="$PROJECT_DIR$/4_Sender/4_Sender.iml" />
       <module fileurl="file://$PROJECT_DIR$/Rabbit_Java.iml" filepath="$PROJECT_DIR$/Rabbit_Java.iml" />
     </modules>
   </component>
