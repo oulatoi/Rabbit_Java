@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/1_Receiver/1_Receiver.iml" filepath="$PROJECT_DIR$/1_Receiver/1_Receiver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/1_Sender/1_Sender.iml" filepath="$PROJECT_DIR$/1_Sender/1_Sender.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2_Receiver/2_Receiver.iml" filepath="$PROJECT_DIR$/2_Receiver/2_Receiver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2_Sender/2_Sender.iml" filepath="$PROJECT_DIR$/2_Sender/2_Sender.iml" />
+      <module fileurl="file://$PROJECT_DIR$/3_Receiver/3_Receiver.iml" filepath="$PROJECT_DIR$/3_Receiver/3_Receiver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/3_Sender/3_Sender.iml" filepath="$PROJECT_DIR$/3_Sender/3_Sender.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Rabbit_Java.iml" filepath="$PROJECT_DIR$/Rabbit_Java.iml" />
+    </modules>
+  </component>
+</project>
