@@ -5,7 +5,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class Receiver_5_0 {
+public class Receiver_5_2 {
     private static final String EXCHANGE_NAME = "topic_logs";
 
     public static void main(String[] argv) throws Exception {
@@ -17,8 +17,16 @@ public class Receiver_5_0 {
         channel.exchangeDeclare(EXCHANGE_NAME, BuiltinExchangeType.TOPIC);
         String queueName = channel.queueDeclare().getQueue();
 
-         String chiave1="*rosso";
-        channel.queueBind(queueName, EXCHANGE_NAME,chiave1);
+        /*if (argv.length < 1) {
+            System.err.println("Usage: ReceiveLogsTopic [binding_key]...");
+            System.exit(1);
+        }*/
+
+        String chiave1="*giallo";
+        Map<String,Object> listaMap = new HashMap<>();
+        listaMap.put("*rosso","*rosso*");
+        listaMap.put("*rosa*","*rosa*");
+        channel.queueBind(queueName, EXCHANGE_NAME,chiave1,listaMap);
 
         System.out.println(" [*] Waiting for messages. To exit press CTRL+C");
 

@@ -13,6 +13,7 @@
       <module fileurl="file://$PROJECT_DIR$/4_Sender/4_Sender.iml" filepath="$PROJECT_DIR$/4_Sender/4_Sender.iml" />
       <module fileurl="file://$PROJECT_DIR$/5_0_0_Receiver/5_0_0_Receiver.iml" filepath="$PROJECT_DIR$/5_0_0_Receiver/5_0_0_Receiver.iml" />
       <module fileurl="file://$PROJECT_DIR$/5_0_1_Receiver/5_0_1_Receiver.iml" filepath="$PROJECT_DIR$/5_0_1_Receiver/5_0_1_Receiver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/5_0_2_Receiver/5_0_2_Receiver.iml" filepath="$PROJECT_DIR$/5_0_2_Receiver/5_0_2_Receiver.iml" />
       <module fileurl="file://$PROJECT_DIR$/5_0_Sender/5_0_Sender.iml" filepath="$PROJECT_DIR$/5_0_Sender/5_0_Sender.iml" />
       <module fileurl="file://$PROJECT_DIR$/Rabbit_Java.iml" filepath="$PROJECT_DIR$/Rabbit_Java.iml" />
     </modules>
