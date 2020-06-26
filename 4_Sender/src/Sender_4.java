@@ -12,8 +12,10 @@ public class Sender_4 {
              Channel channel = connection.createChannel()) {
             channel.exchangeDeclare(EXCHANGE_NAME, BuiltinExchangeType.DIRECT);//exchange direct
 
-            String severity = getSeverity(argv);
-            String message = getMessage(argv);
+            //String severity = getSeverity(argv);
+            //String message = getMessage(argv);
+            String severity = "severity_2";
+            String message=severity;
 
             channel.basicPublish(EXCHANGE_NAME, severity, null, message.getBytes("UTF-8"));
             System.out.println(" [x] Sent '" + severity + "':'" + message + "'");

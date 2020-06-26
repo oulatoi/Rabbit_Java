@@ -12,14 +12,8 @@ public class Receiver_4 {
         channel.exchangeDeclare(EXCHANGE_NAME, BuiltinExchangeType.DIRECT);
         String queueName = channel.queueDeclare().getQueue();
 
-        if (argv.length < 1) {
-            System.err.println("Usage: ReceiveLogsDirect [info] [warning] [error]");
-            System.exit(1);
-        }
+       channel.queueBind(queueName, EXCHANGE_NAME, "severity_1");//severity-->associazione con una chiave:
 
-        for (String severity : argv) {
-            channel.queueBind(queueName, EXCHANGE_NAME, severity);
-        }
         System.out.println(" [*] Waiting for messages. To exit press CTRL+C");
 
         DeliverCallback deliverCallback = (consumerTag, delivery) -> {
