@@ -16,7 +16,7 @@ public class Sender_5 {
 
 //            String routingKey = getRouting(argv);
 //            String message = getMessage(argv);
-            String routingKey="rosa";
+            String routingKey="*rosso";
             String message="ciao";
             String argomento="rosa";
             channel.basicPublish(EXCHANGE_NAME, routingKey, null, message.getBytes("UTF-8"));
